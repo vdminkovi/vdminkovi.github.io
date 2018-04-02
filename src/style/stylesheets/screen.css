@@ -1,0 +1,478 @@
+/*RESET*/
+/**
+ * Demo Styles
+ */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Open Sans', Helvetice, Ariel, sans-serif;
+  line-height: 1.2;
+  font-size: 16px;
+  min-height:100%;
+  position:relative;
+  color: #443636;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box; }
+a {
+  color: #424b5a;
+  text-decoration: none;
+}
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #21BAB9;}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: #424b5a; }
+
+i {
+  font-style: italic; }
+
+small {
+  font-size: 12px; }
+
+
+.clearfix {
+  clear:both;
+}
+.margin-top-40 {
+  margin-top:40px;
+}
+.margin-top-60 {
+  margin-top:60px;
+}
+.padding-bottom-13{
+    padding-bottom: 13rem;
+}
+.padding-bottom-9{
+    padding-bottom: 9rem;
+}
+.padding-bottom-40{
+    padding-bottom: 40px;
+}
+.p-bold {
+  font-weight: bold;
+}
+/*Site Styles*/
+/*.Flex {
+  display: flex;
+}*/
+header {
+  position: relative;
+  z-index: 1000;
+}
+
+footer {
+  font-size: 13px;
+  background-color: #1b232b;
+  color: #b4afa1;
+  border-top: 1px dashed #b4afa1;
+  float: left;
+  overflow: hidden;
+  padding: 20px 0;
+  width: 100%;
+  position:absolute;
+  bottom:0;
+}
+footer h4 {
+  font-size: 16px;
+  border-bottom:1px dashed #364554;
+}
+footer>div {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  line-height: 1.7;
+  border-left:1px dashed #364554;
+}
+.Main {
+  min-height:100%;
+}
+.Container {
+  background-color:#fff;
+
+}
+.Logo {
+  width: 248px;
+  height:350px;
+  float:left;
+  margin-left: 20px;
+}
+
+.header-nav {
+  float:right;
+  margin-right: 20px;
+  padding: 20px 0 0 0;
+  border-right:1px solid #FEC732;
+
+}
+.LinLang {
+  float:right;
+  color: #FEC732;
+  padding: 20px 5px 0 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.LinLang.active {
+  border-bottom: 2px solid #FEC732;
+}
+.header-nav ul li {
+  float: left;
+  margin-right: 40px;
+}
+.home-descr {
+  float:left;
+  width:70%;
+  margin-left:2%;
+  margin-top: 45px;
+  text-align: center;
+  line-height:1.7;
+}
+.Clients {
+  color:#fff;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 29px;
+  padding-left: 29px;
+  padding-right: 29px;
+  margin-top: 60px;
+  background: #1b232b;
+  text-align: center;
+  float: left;
+  border-top: 1px dashed #22bbb9;
+}
+.ContactsPage p{
+  margin: 20px;
+}
+.TeamDescr {
+  float:left;
+  padding: 25px;
+  line-height: 1.7;
+}
+
+.TeamDescr h4 {
+  padding: 5px 0;
+  font-style: italic;
+}
+.TeamDescr .btn-action {
+  margin:20px 0 0 0;
+}
+.OpenTeam {
+  margin: 0 auto;
+  margin-top:55px;
+  padding-top:75px;
+  border-top: 1px dashed #22bbb9;
+  overflow: hidden;
+}
+.Thumbs {
+    margin-top: 5%;
+}
+.DataThumbs {
+    margin-top: 60px;
+}
+.Thumbs, .DataThumbs {
+  float: left;
+  width: 40%;
+
+}
+.Thumbs .thumb {
+  width: 45%;
+  margin-right: 10px;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+.Thumbs .thumb .TeamTitle {
+  width: 100%;
+}
+.thumb {
+ width: 21%;
+ background-repeat:no-repeat;
+ background-position:center;
+ background-size:cover;
+ height:256px;
+ cursor:pointer;
+ float: left;
+ overflow: hidden;
+ margin: 0 2%;
+}
+.thumb a {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+.Home .thumb .TeamMore {
+  display: none;
+}
+.TeamMore {
+  background: #21BAB9;
+  color: white;
+  bottom: -24px;
+  padding: 10px 0;
+}
+.thumb .TeamTitle {
+  position: absolute;
+  left: 0;
+  right:0;
+  bottom:0;
+  margin: 0 auto;
+  text-align: center;
+  width:100%;
+}
+.thumb .TeamTitle>p {
+  color:#fff;
+  font-size:20px;
+  font-weight:bold;
+  background-color: #FEC732;
+  padding: 5px 0;
+}
+.thumb1 {
+  background-image:url('../Images/challange.JPG');
+}
+.thumb2 {
+  background-image:url('../Images/fair.JPG');
+}
+.thumb4 {
+  background-image:url('../Images/pleasure.JPG');
+}
+.thumb3 {
+  background-image:url('../Images/gameof.JPG');
+}
+.sprite {
+  width: 25%;
+  background-image:url('../Images/sprite1-w.png');
+  background-repeat:no-repeat;
+  float: left;
+}
+.sprite1 {
+  background-position: 0 0;
+  height: 65px;
+  width: 176px;
+}
+.sprite2 {
+  background-position: 0 -63px;
+  height: 92px;
+  width: 170px;
+}
+.sprite3 {
+  background-position: 0 -210px;
+  height: 84px;
+  width: 156px;
+}
+.sprite4 {
+  background-position: 0 -292px;
+  height: 69px;
+  width:306px;
+}
+.sprite5 {
+  background-position: 0px -359px;
+  height: 57px;
+  width: 162px;
+}
+.sprite6 {
+  background-position: 0px -418px;
+  height: 75px;
+  width: 305px;
+}
+.sprite7 {
+  background-position: 0px -484px;
+  height: 127px;
+  width: 280px;
+}
+.sprite8 {
+  height: 68px;
+  width: 199px;
+  background-position: 0px -598px;
+}
+.sprite9{
+  height: 94px;
+  width: 285px;
+  background-position: 0px -667px;
+}
+.sprite10{
+  height: 71px;
+  width: 285px;
+  background-position: 0px -756px;
+}
+.sprite11{
+  height: 65px;
+  width: 320px;
+  background-position: 0px -824px;
+}
+.sprite12{
+  height: 110px;
+  width: 420px;
+  background-position: 0px -889px;
+}
+.sprite13{
+  height: 100px;
+  width: 300px;
+  background-position: 0px -996px;
+}
+.sprite14{
+  height: 52px;
+  width: 195px;
+  background-position: 0px -159px;
+}
+.SelectTitle {
+  text-align: center;
+}
+.PicGallery img {
+  width: 80%;
+  float: left;
+  margin: 5px;
+}
+.MemThumb {
+  padding: 0 20px;
+  text-align: left;
+}
+.header-nav ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #21BAB9;
+}
+.header-nav ul li a.active {
+  border-bottom: 2px solid #21BAB9;
+}
+.btn-action {
+  display: block;
+  width: 200px;
+  color:#fff;
+  background-color: #21BAB9;
+  text-transform: uppercase;
+  padding: 10px 5px;
+  margin: 20px auto;
+  text-align: center;
+}
+.back-btn:before {
+  content:'<';
+  width: 20px;
+  height: 20px;
+  padding: 3px 16px;
+  margin-right: 5px;
+  color:#fff;
+  background-color:  #FEC732;
+  vertical-align: middle;
+}
+.FaceIcon {
+    background-image:url('../Images/facebook.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: block;
+    background-size: 65%;
+}
+.FaceIcon:hover{
+  background-color: #364554;
+}
+@media (max-width: 1600px) {
+  .thumb {
+    width: 45%;
+    margin-top: 20px;
+  }
+  .Thumbs .thumb {
+    width:90%
+  }
+}
+@media (max-width: 1360px) {
+  .Thumbs, .DataThumbs {
+    width: 35%;
+  }
+}
+@media (max-width: 980px) {
+  .thumb {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .home-descr {
+    width: 50%;
+  }
+  .Logo {
+    width: 184px;
+    height:250px;
+  }
+  .OpenTeam {
+    margin-top: 14px;
+  }
+}
+@media (max-width: 700px) {
+  .OpenTeam {
+    padding-top:5px;
+    margin-top: 83px;
+  }
+  .Logo {
+    width: 124px;
+    height: 180px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 660px) {
+  .OpenTeam {
+    padding-top:5px;
+    margin-top: 42px;
+  }
+  .header-nav {
+    margin-right: 0;
+  }
+  .header-nav ul li{
+    margin-right: 10px;
+  }
+  .header-nav ul li a{
+    font-size: 14px;
+  }
+}
+@media (max-width: 590px) {
+  .OpenTeam {
+    padding-top:5px;
+    margin-top: 3px;
+  }
+  .Thumbs, .DataThumbs {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .thumb {
+    width: 90%;
+    margin-top: 20px;
+    margin-left:20px;
+  }
+  .thumb .TeamTitle {
+    width:338px
+  }
+  .home-descr {
+    width: 95%;
+  }
+  .Logo {
+    width: 184px;
+    height:250px;
+  }
+}
